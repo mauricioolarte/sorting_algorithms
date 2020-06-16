@@ -20,7 +20,7 @@ void selection_sort(int *array, size_t size)
 			if (array[i] < min)
 			{
 				min = array[i];
-				printf(" min %i a[%i]\n", min, i);
+
 				min_i = i;
 				flag = 1;
 			}
